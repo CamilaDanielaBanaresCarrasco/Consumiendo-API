@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="Asset/Css/style.css">
+  <title>Tabla Con Bootstrap</title>
+</head>
+
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="https://www.pngall.com/wp-content/uploads/2/Digimon-PNG-Free-Image.png" width="5%" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active mx-5">
+          <a class="nav-link letrasNavegados btn btn-primary  " href="https://www.youtube.com/watch?v=u2Ms34GE14U">¿Que es una API?</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link letrasNavegados btn btn-secondary" href="https://profile.es/blog/consumir-api-javascript/#:~:text=Las%20tres%20principales%20son%3A%201%201.%20Llamar%20a,Llamar%20a%20una%20API%20desde%20JS%20con%20Axios">Quiero Aprender a consumir APIS</a>
+        </li>
+        <li class="nav-item  mx-5">
+          <a class="nav-link letrasNavegados btn btn-info" href="cualEsMiCodigo.html">¿Cual es mi codigo?</a>
+        </li>
+      </ul>
+  
+    </div>
+  </nav>
+
+  
+
+<section>
+    <center>
+      <div class="tituloPrincipal"> ESTOS SON LOS DIGIMONES</div>
+      <div class="border  col-6   bg-light p-3" > 
+        <div class="tituloSecundario"> consumidos desde esta API</div>
+        <button class="btn btn-danger"  onclick="window.location.href='https://digimon-api.vercel.app/api/digimon/'">  <i class="bi bi-arrow-right"></i>Ir a Digimon API</button>
+      </div> 
+    </center>
+
+    <div class="d-flex justify-content-center mt-5">
+    <input type="text" id="searchInput" placeholder="Buscar por nombre">
+    <button class="btn btn-success" id="searchButton" onclick="buscarDigimon()">Buscar</button>
+    </div>
+</section>
+
+<!-- AQUI SE CONSUME LA API -->
+    <div id="digimon" class=" container d-flex flex-wrap border mt-5 mb-5  ">
+
+    </div>
+
+
+
+
+</div>
+ 
+
+  <!-- // ESTE CODIGO LO SAQUE DE https://canvasjs.com/javascript-charts/animated-chart/ -->
+  <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+  <!--  <script src="Asset/Js/jquery-3.6.4.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="Asset/Js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

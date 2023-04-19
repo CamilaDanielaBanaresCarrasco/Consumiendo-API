@@ -1,0 +1,110 @@
+div#niveleDelDigimon {
+  font-size: 25px;
+  background-image: linear-gradient(to right, rgb(57, 57, 18), rgba(60, 30, 30, 0.361));
+
+
+  margin: 0px 45px 20px 45px;
+  border: solid 1px #49484c;
+  color: white;
+  border-radius: 10px;
+}
+
+
+
+
+#tituloDelDigimon {
+  background-color: #000000;
+  color: white;
+  margin: 0px 45px 0px 45px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#tituloDelDigimon {
+  border-radius: 10px;
+}
+
+#digimon {
+  justify-content: center;
+  width: 120%;
+  height: 800px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-image: url(https://www.pngplay.com/wp-content/uploads/7/Digimon-Character-Transparent-Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/cc/8c/5e/cc8c5e6e31019b7ced8c08d5ed4465f6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituloPrincipal {
+  font-size: 60px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-transform: uppercase;
+}
+
+
+.tituloSecundario {
+  font-size: 30px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-transform: uppercase;
+}
+
+section {
+  margin: 5px;
+}
+
+.agrandar {
+  width: 15%;
+  position: absolute;
+  z-index: 2;
+}
+
+#searchInput {
+  font-family: 'Arial';
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #c9c9c9;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#searchInput:focus {
+  outline: none;
+  border-color: #f2b63c;
+  box-shadow: 0 0 5px #f2b63c;
+}
+
+#searchButton {
+  font-family: 'Arial';
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #21b045;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #e6a119;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #searchInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.letrasNavegados{
+  font-size: 40px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-transform: uppercase;
+
+}
